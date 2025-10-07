@@ -24,3 +24,4 @@ uv sync
 Este comando irá instalar todas as dependências listadas no arquivo `pyproject.toml`.
 
 1. Abra o arquivo `trabalho1.ipynb` em um ambiente Jupyter Notebook ou JupyterLab e execute as células para ver os exemplos de busca em grafos.
+OBS: Certifique-se de que o ambiente virtual Python criado pelo UV esteja ativado antes de executar o notebook, para garantir que todas as dependências estejam disponíveis.
