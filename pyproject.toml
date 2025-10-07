@@ -1,0 +1,12 @@
+[project]
+name = "exerc-cios-graphos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "graphviz>=0.21",
+    "networkx>=3.5",
+    "numpy>=2.3.3",
+    "pygraphviz",
+]
