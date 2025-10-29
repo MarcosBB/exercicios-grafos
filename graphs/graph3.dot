@@ -1,0 +1,22 @@
+graph Graph3 {
+  // nós (letras)
+  a; b; c; d; e; f; g; h; i; j;
+
+  // ciclo 1 (a-b-c-d-e-a)
+  a -- b [label=2];
+  b -- c [label=5];
+  c -- d [label=1];
+  d -- e [label=3];
+  e -- a [label=4];
+
+  // ciclo 2 (f-g-h-i-j-f)
+  f -- g [label=2];
+  g -- h [label=6];
+  h -- i [label=3];
+  i -- j [label=5];
+  j -- f [label=2];
+
+  // arestas que conectam os ciclos (garante que não seja uma árvore)
+  c -- f [label=7];
+  b -- h [label=4];
+}

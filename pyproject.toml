@@ -1,11 +1,12 @@
 [project]
-name = "exerc-cios-graphos"
+name = "exercicios-grafos"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "graphviz>=0.21",
+    "ipykernel>=7.1.0",
     "jinja2>=3.1.6",
     "networkx>=3.5",
     "numpy>=2.3.3",
