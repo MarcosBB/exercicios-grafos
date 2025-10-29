@@ -4,6 +4,7 @@ graph Graph3 {
 
   // ciclo 1 (a-b-c-d-e-a)
   a -- b [label=2];
+  a -- b [label=3];  // aresta duplicada para testar
   b -- c [label=5];
   c -- d [label=1];
   d -- e [label=3];
